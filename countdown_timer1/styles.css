@@ -1,0 +1,52 @@
+/* Reset default margin and padding */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .timer-container {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .timer {
+    margin-bottom: 20px;
+  }
+  
+  #timer-display {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  #timer-phase {
+    font-size: 20px;
+    color: #666;
+    text-transform: uppercase;
+  }
+  
+  .controls button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 5px;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
